@@ -16,7 +16,6 @@ def get_cfg_id():
 def api_get():
     print(rad_private())
     url = f'https://webklipperconfigure.ru/public_api/config/{get_cfg_id()}/{rad_private()}'
-    url = f'http://127.0.0.1:5001/public_api/config/{get_cfg_id()}/{rad_private()}'
 
     response = requests.get(url)
 
