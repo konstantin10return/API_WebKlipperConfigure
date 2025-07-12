@@ -1,4 +1,4 @@
-#!./venv/Script/python.exe
+#!./venv/bin/python3
 
 
 import sys
