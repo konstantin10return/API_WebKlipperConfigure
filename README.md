@@ -1,7 +1,16 @@
 Пример использования API <a href="https://webklipperconfigure.ru" target="_blank">онлайн конфигуратора Klipper</a>
 
 Работа с api: 
-1) Ставите клиент web klipper configure
+1) Ставите клиент web klipper configure<br>
+Если не ставили git (он ставится с kiauh):<br>
+```sudo apt update```
+<br>
+```sudo apt-get install git```
+<br>
+Ставим сам клиент (выполняется в каталоге установки):<br>
+```git clone https://github.com/konstantin10return/API_WebKlipperConfigure```<br>
+```chmod +x ./API_WebKlipperConfigure/install.sh```<br>
+```./API_WebKlipperConfigure/install.sh```
 2) Клиент генерирует ключи 
 3) На сайте заходите в настройки api нужной вам конфигурации 
 3.1) добавляете ключ доступа (он выводится при генерации ключей (п.2))<br>
