@@ -11,7 +11,7 @@
 ```git clone https://github.com/konstantin10return/API_WebKlipperConfigure```<br>
 ```chmod +x ./API_WebKlipperConfigure/install.sh```<br>
 ```./API_WebKlipperConfigure/install.sh```
-2) Клиент генерирует ключи 
+2) Клиент генерирует ключи <br> ```./API_WebKlipperConfigure/console_version.sh -g```
 3) На сайте заходите в настройки api нужной вам конфигурации 
 3.1) добавляете ключ доступа (он выводится при генерации ключей (п.2))<br>
 3.2) копируете id конфигурации и вставляете его в файл cfg_id.txt 
