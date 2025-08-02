@@ -3,10 +3,8 @@
 Работа с api: 
 1) Ставите клиент web klipper configure<br>
 Если не ставили git (он ставится с kiauh):<br>
-```sudo apt update```
-<br>
-```sudo apt-get install git```
-<br>
+```sudo apt update```<br>
+```sudo apt-get install git```<br>
 Ставим сам клиент (выполняется в каталоге установки):<br>
 ```git clone https://github.com/konstantin10return/API_WebKlipperConfigure```<br>
 ```chmod +x ./API_WebKlipperConfigure/install.sh```<br>
